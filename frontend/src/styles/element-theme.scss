@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+$--color-primary: $color-primary;
+$--color-success: $color-success;
+$--color-warning: $color-warning;
+$--color-danger: $color-danger;
+$--color-info: $gray-500;
+
+$--color-text-primary: $gray-900;
+$--color-text-regular: $gray-700;
+$--color-text-secondary: $gray-500;
+$--color-text-placeholder: $gray-400;
+
+$--border-color-base: $gray-200;
+$--border-color-light: $gray-200;
+$--border-color-lighter: $gray-100;
+$--border-color-extra-light: $gray-50;
+$--background-color-base: $gray-50;
+
+$--border-radius-base: $radius;
+$--border-radius-small: $radius-sm;
+$--card-border-radius: $radius-lg;
+$--tag-border-radius: 999px;
+$--box-shadow-light: 0 1px 2px rgba(15, 23, 42, 0.06);
+
+$--input-height: 36px;
+$--button-font-weight: 500;
+
+$--font-path: 'element-ui/lib/theme-chalk/fonts';
+
+@import 'element-ui/packages/theme-chalk/src/index';
